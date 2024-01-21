@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.head,.parent{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.amt{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.amt span:nth-child(1){
+    background-color: aliceblue;
+    opacity: 0.5;
+    font-weight: 900;
+    font-size: 24px;
+    padding: 10px 10px;
+}
+
+.amt span:nth-child(2){
+    color: green;
+    background-color: aliceblue;
+    opacity: 0.8;
+    font-weight: 900;
+    font-size: 24px;
+    padding: 10px 10px;
+
+}
+.amt span:nth-child(3){
+    color: blue;
+    background-color: skyblue;
+    opacity: 0.5;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 10px 10px;
+
+
+}
+
+.green{
+    color: green;
+    padding: 20px 0;
+}
+.data-list{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa; 
+    padding: 15px;
+    border-radius: 6px;
+}
+.data-list button{
+    width: 20px;
+    margin-left: 10px;
+}
+.int-list{
+    margin-top: 20px;
+}
+
+.int-list label{
+        display: block;
+}
+.bud-inp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+
+    border-radius: 54px;
+background: #4ec7d0;
+box-shadow:  5px 5px 10px #215457,
+             -5px -5px 10px #7bffff;
+}
+.bud-inp input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+.int-list input{
+    margin-top: 3px;
+    width:600px;
+    padding: 5px;
+    opacity: 0.5;
+    outline: none;
+}
+.int-list input:focus{
+    outline-style: solid;
+    outline-color: #0d6efd;
+}
+.int-list{
+    display: flex;
+    justify-content: space-between;
+}
+.expense-list{
+    margin-bottom: 15px;
+}
+
+.add-exp button{
+
+    margin-top: 30px;
+    background-color: #0d6efd;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    
+}
